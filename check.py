@@ -59,7 +59,7 @@ for line in lines:
 	
 	
 	if len(mm) == 1:
-		mm = f'0{mm}'
+    mm = "0" + mm
 	
 	if "20" in yy:
 		yy = yy.split("20")[1]	
